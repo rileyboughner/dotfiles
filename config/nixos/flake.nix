@@ -12,6 +12,22 @@
   in
   {
     nixosConfigurations = {
+      desktop = nixpkgs.lib.nixosSystem {
+        inherit system;
+        modules = [ 
+	  ./configuration.nix 
+	  ./hosts/desktop.nix 
+	  ./modules/nvidia
+        ];
+      };
+      laptop = nixpkgs.lib.nixosSystem {
+        inherit system;
+        modules = [ 
+	  ./configuration.nix 
+	  ./hosts/laptop.nix 
+	  ./modules/nvidia
+        ];
+      };
       thinkpad = nixpkgs.lib.nixosSystem {
         inherit system;
         modules = [ 

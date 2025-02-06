@@ -1,0 +1,57 @@
+#!/bin/sh
+
+# Reset symlinks for directories in ~/.config
+
+# -- hypr --
+SOURCE="$HOME/.dotfiles/config/hypr"
+DEST="$HOME/.config/hypr"
+if [ -d "$DEST" ]; then
+    echo "Removing existing hypr directory: $DEST"
+    rm -rf "$DEST"
+fi
+ln -s "$SOURCE" "$DEST"
+
+# -- kitty --
+SOURCE="$HOME/.dotfiles/config/kitty"
+DEST="$HOME/.config/kitty"
+if [ -d "$DEST" ]; then
+    echo "Removing existing kitty directory: $DEST"
+    rm -rf "$DEST"
+fi
+ln -s "$SOURCE" "$DEST"
+
+# -- nixos --
+SOURCE="$HOME/.dotfiles/config/nixos"
+DEST="/etc/nixos"
+if [ -d "$DEST" ]; then
+    echo "Removing existing nixos directory: $DEST"
+    sudo rm -rf "$DEST"
+fi
+sudo ln -s "$SOURCE" "$DEST"
+
+# -- wal --
+SOURCE="$HOME/.dotfiles/config/wal"
+DEST="$HOME/.config/wal"
+if [ -d "$DEST" ]; then
+    echo "Removing existing wal directory: $DEST"
+    rm -rf "$DEST"
+fi
+ln -s "$SOURCE" "$DEST"
+
+# -- wofi --
+SOURCE="$HOME/.dotfiles/config/wofi"
+DEST="$HOME/.config/wofi"
+if [ -d "$DEST" ]; then
+    echo "Removing existing wofi directory: $DEST"
+    rm -rf "$DEST"
+fi
+ln -s "$SOURCE" "$DEST"
+
+# -- zshrc --
+SOURCE="$HOME/.dotfiles/config/zsh/zshrc"
+DEST="$HOME/.zshrc"
+if [ -f "$DEST" ]; then
+    echo "Removing existing zshrc: $DEST"
+    rm -r "$DEST"
+fi
+ln -s "$SOURCE" "$DEST"

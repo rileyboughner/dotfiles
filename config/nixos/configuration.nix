@@ -62,6 +62,7 @@
     syntaxHighlighting.enable = true;
     shellAliases = {
       n = "nvim";
+      link = "~/.dotfiles/scripts/set-symlinks";
     };
   };
 

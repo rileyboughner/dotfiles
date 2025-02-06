@@ -2,15 +2,15 @@
 
 ### These are my updated dotfiles
 
- - now includeing **nixflakes!**
+ - now including **nixflakes!**
  - better wallpaper support
  - modular design
 
 ### TODO
 
-- [ ] added script for setting up symlinks
-- [ ] find best way to save firefox configuration
+- [ ] add script for setting up symlinks
+- [ ] find bettery way of saveing firefox config
 
-
+### Cool Commands
 git config --global credential.helper store
 

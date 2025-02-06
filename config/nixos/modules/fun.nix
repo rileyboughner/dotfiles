@@ -9,6 +9,8 @@ environment.systemPackages = with pkgs; [
   sl
   libcaca
   cowsay
+  no-more-secrets
+  genact
 ];
 
 }

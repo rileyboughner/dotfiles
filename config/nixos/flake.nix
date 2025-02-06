@@ -16,8 +16,18 @@
       modules = [
         ./configuration.nix
 	./hosts/thinkpad.nix
+
 	./modules/hyprland.nix
-	./modules/quickemu.nix
+      ];
+    };
+    nixosConfigurations.desktop = nixpkgs.lib.nixosSystem{
+      inherit system;
+      modules = [
+        ./configuration.nix
+	./hosts/desktop.nix
+
+	./modules/nvidia.nix
+	./modules/hyprland.nix
       ];
     };
     nixosConfigurations.laptop = nixpkgs.lib.nixosSystem{
@@ -25,7 +35,10 @@
       modules = [
         ./configuration.nix
 	./hosts/laptop.nix
+
 	./modules/nvidia.nix
+	./modules/hyprland.nix
+	./modules/quickemu.nix
       ];
     };
   };

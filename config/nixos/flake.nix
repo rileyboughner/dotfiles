@@ -17,6 +17,7 @@
         ./configuration.nix
 	./hosts/thinkpad.nix
 	./modules/hyprland.nix
+	./modules/quickemu.nix
       ];
     };
     nixosConfigurations.laptop = nixpkgs.lib.nixosSystem{

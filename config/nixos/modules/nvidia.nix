@@ -1,7 +1,7 @@
-{ confix, pkgs, ...}: 
+{ config, pkgs, lib, ... }: 
 
 {
-  hardware.graphics.enale = true;
+  hardware.graphics.enable = true;
 
   hardware.nvidia = {
     modesetting.enable = true;

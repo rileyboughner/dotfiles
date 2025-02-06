@@ -11,30 +11,21 @@
     system = "x86_64-linux";
   in
   {
-    nixosConfigurations = {
-      desktop = nixpkgs.lib.nixosSystem {
-        inherit system;
-        modules = [ 
-	  ./configuration.nix 
-	  ./hosts/desktop.nix 
-	  ./modules/nvidia
-        ];
-      };
-      laptop = nixpkgs.lib.nixosSystem {
-        inherit system;
-        modules = [ 
-	  ./configuration.nix 
-	  ./hosts/laptop.nix 
-	  ./modules/nvidia
-        ];
-      };
-      thinkpad = nixpkgs.lib.nixosSystem {
-        inherit system;
-        modules = [ 
-	  ./configuration.nix 
-	  ./hosts/thinkpad.nix 
-        ];
-      };
+    nixosConfigurations.thinkpad = nixpkgs.lib.nixosSystem{
+      inherit system;
+      modules = [
+        ./configuration.nix
+	./hosts/thinkpad.nix
+	./modules/hyprland.nix
+      ];
+    };
+    nixosConfigurations.laptop = nixpkgs.lib.nixosSystem{
+      inherit system;
+      modules = [
+        ./configuration.nix
+	./hosts/laptop.nix
+	./modules/nvidia.nix
+      ];
     };
   };
 }

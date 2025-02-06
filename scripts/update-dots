@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# Jan 31 2025
+# just a script that will commit my dots
+
+current_dir=$(pwd)
+cd ~/.dotfiles || exit
+git add .
+git commit
+cd "$current_dir"

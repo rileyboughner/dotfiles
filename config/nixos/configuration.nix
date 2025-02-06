@@ -49,7 +49,7 @@
   users.users.rileyboughner = {
     isNormalUser = true;
     description = "Riley Boughner";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "rileyboughner" ];
     packages = with pkgs; [];
   };
 
@@ -71,7 +71,18 @@
 
   environment.systemPackages = with pkgs; [
     firefox
+    brave
+    kitty
+    tldr
+    ripgrep
+    bat
+    fd
+    fzf
+    pavucontrol
+    fastfetch
+    newsboat
     git
+    python3 #needed for pywalfox
   ];
   
   programs.neovim = {

@@ -1,0 +1,181 @@
+#!/usr/bin/env python3
+
+#imports
+import re
+import os
+import subprocess
+
+#variuables
+configuration_file_path = os.path.expanduser("~/.dotfiles/config/configuration.settings")
+application_packages_file_path = os.path.expanduser("~/.dotfiles/config/nixos/packages")
+
+#functions
+def configIsValid(config):
+    return bool(config.get("hostname")) and bool(config.get("username"))
+
+def configExists():
+    return os.path.isfile(configuration_file_path)
+
+def readConfigurationSettings():
+
+    # Dictionary to store extracted values
+    config = {"hostname": "", "username": "", "packages": [], "settings": []}
+
+    # Read the file
+    with open(configuration_file_path, "r", encoding="utf-8") as f:
+        prev_section = None  # Track which section we're in
+
+        for line in f:
+            line = line.strip()
+
+            # Match hostname and username (e.g., `- hostname = "myserver"`)
+            if match := re.match(r"- (\w+)\s*=\s*\"(.*)\"", line):
+                key, value = match.groups()
+                if key in ["hostname", "username"]:
+                    config[key] = value  # Store in config
+
+            # Match checked (`[x]`) packages/settings
+            elif match := re.match(r"- \[x\] (.+)", line):
+                item = match.group(1)
+
+                if prev_section == "packages":
+                    config["packages"].append(item)
+                elif prev_section == "settings":
+                    config["settings"].append(item)
+
+            # Track current section
+            elif line.lower().startswith("# include packages"):
+                prev_section = "packages"
+            elif line.lower().startswith("# settings"):
+                prev_section = "settings"
+
+    return config
+
+def createConfigurationSettings():
+    # Define the default configuration template
+    default_file = """
+    # Configuration Settings
+
+    - hostname = ""
+
+    - username = ""
+
+    # include packages
+
+{packages_section}
+
+    # settings
+
+    - [ ] use nvidia
+    - [ ] enable ssh
+    """
+
+    # Retrieve filenames from the package directory
+    def get_filenames(directory):
+        """Return a list of filenames formatted as checklist items from the specified directory."""
+        if not os.path.exists(directory):
+            return []
+        return [f"    - [ ] {f}" for f in os.listdir(directory) if os.path.isfile(os.path.join(directory, f))]
+
+    # Generate package list and insert into the template
+    package_list = "\n".join(get_filenames(application_packages_file_path))
+    filled_config = default_file.format(packages_section=package_list)
+
+    # Write the modified configuration to file
+    with open(configuration_file_path, "w", encoding="utf-8") as file:
+        file.write(filled_config)
+
+
+def update_configuration(config):
+    # Path to the default configuration file and the target file
+    default_config_path = os.path.expanduser('~/.dotfiles/config/nixos/default-configuration.nix')
+    target_config_path = os.path.expanduser('~/.dotfiles/config/nixos/configuration.nix')
+    packages_directory = os.path.expanduser('~/.dotfiles/config/nixos/packages')
+
+    # Read the content of the default configuration file
+    with open(default_config_path, 'r') as file:
+        config_content = file.readlines()
+
+    # Prepare the lines to append for the imports
+    imports_lines = []
+    
+    # Iterate over the list of packages in the config
+    for package in config['packages']:
+        package_path = os.path.join(packages_directory, package)
+
+        # Check if the file exists
+        if os.path.exists(package_path):
+            # Add the absolute path for the package import
+            imports_lines.append(f'  {package_path}\n')
+        else:
+            print(f"Warning: {package} does not exist at {package_path}")
+
+    # Format the imports correctly as a Nix array
+    imports_str = "".join(imports_lines)
+
+    # Find the line containing /etc/nixos/hardware-configuration.nix
+    hardware_config_found = False
+    for index, line in enumerate(config_content):
+        if "/etc/nixos/hardware-configuration.nix" in line:
+            hardware_config_found = True
+            insert_position = index + 1  # Insert immediately after this line
+            break
+
+    if not hardware_config_found:
+        print("Error: Could not find the /etc/nixos/hardware-configuration.nix in the configuration file.")
+        return
+
+    # Append the new imports directly after hardware-configuration.nix
+    config_content.insert(insert_position, f"  {imports_str}")
+
+    # Write the modified content to the new configuration file
+    with open(target_config_path, 'w') as file:
+        file.writelines(config_content)
+
+def rebuildNix():
+    try:
+        # Run the cp command
+        cp_command = "sudo cp ~/.dotfiles/config/nixos/configuration.nix /etc/nixos/configuration.nix"
+        subprocess.run(cp_command, shell=True, check=True)
+        print("[log] configuration.nix has been written successfully to /etc/nixos")
+
+        # Run the nixos-rebuild switch command
+        nixos_rebuild_command = "sudo nixos-rebuild switch"
+        subprocess.run(nixos_rebuild_command, shell=True, check=True)
+
+    except subprocess.CalledProcessError as e:
+        print(f"Error occurred while executing the command: {e}")
+
+#variuables
+config = {}
+
+print("[log] checking for configuration.settings")
+
+if (not configExists()):
+    print("[log] config could not be found creating in ~/.dotfiles/config/configuration.settings")
+    createConfigurationSettings()
+    exit()
+
+   
+print("[log] reading and validating file")
+
+config = readConfigurationSettings()
+
+if (not configIsValid(config)):
+    print("[log] config does not appear to be valid please add atleast a username and hostname in .dotfiles/config/configuration.settings")
+    #exit() <-update this so it doesnt skip only when hostname and username dont matter
+    
+print("[log] file looks good!")
+
+update_configuration(config)
+print("[log] configuration.nix has been updated")
+
+print("[log] rebuilding the nix file")
+rebuildNix()
+print("[log] nix has been rebuilt")
+
+
+
+
+
+

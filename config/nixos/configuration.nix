@@ -73,6 +73,7 @@
     firefox
     brave
     kitty
+    starship
     tldr
     ripgrep
     bat

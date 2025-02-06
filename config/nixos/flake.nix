@@ -18,6 +18,7 @@
 	./hosts/thinkpad.nix
 
 	./modules/hyprland.nix
+	./modules/fun.nix
       ];
     };
     nixosConfigurations.desktop = nixpkgs.lib.nixosSystem{

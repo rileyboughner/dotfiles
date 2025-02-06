@@ -6,8 +6,6 @@
 
   # -- packages -- 
   environment.systemPackages = with pkgs; [
-    fastfetch
-    cmatrix
   ];
 
   # -- custom --

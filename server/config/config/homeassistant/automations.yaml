@@ -1,0 +1,62 @@
+- id: '1748820210224'
+  alias: Leave Home
+  description: ''
+  triggers:
+  - trigger: zone
+    entity_id: person.riley_boughner
+    zone: zone.home
+    event: leave
+  conditions: []
+  actions:
+  - action: light.turn_off
+    metadata: {}
+    data: {}
+    target:
+      area_id: bedroom
+  - action: climate.turn_off
+    metadata: {}
+    data: {}
+    target:
+      area_id: bedroom
+  mode: single
+- id: '1748821045496'
+  alias: Wake Up
+  description: ''
+  triggers:
+  - trigger: time
+    at: 05:00:00
+  conditions:
+  - condition: zone
+    entity_id: person.riley_boughner
+    zone: zone.home
+  actions:
+  - action: light.turn_on
+    metadata: {}
+    data:
+      color_temp_kelvin: 3204
+      brightness_pct: 75
+    target:
+      area_id: bedroom
+  mode: single
+- id: '1748821535960'
+  alias: Bedroom Light Time
+  description: ''
+  triggers:
+  - trigger: time
+    at: '20:00:00'
+  conditions:
+  - condition: state
+    entity_id: light.sengled_e21_n1ea
+    state: 'on'
+  actions:
+  - action: light.turn_on
+    metadata: {}
+    data:
+      rgb_color:
+      - 224
+      - 27
+      - 36
+      brightness_pct: 65
+    target:
+      area_id: bedroom
+  mode: single

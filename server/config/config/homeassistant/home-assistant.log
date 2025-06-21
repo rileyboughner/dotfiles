@@ -1,0 +1,153 @@
+2025-06-16 12:59:27.529 WARNING (MainThread) [homeassistant.bootstrap] Waiting on integrations to complete setup: {('wyoming', '01JWQ5X3ACXZT0RBZMC38WZ5RP'): 267421.447138109, ('wyoming', '01JWQ6F1KXK1SBB0NVY8S53WCP'): 267421.447847276}
+2025-06-16 13:00:27.603 WARNING (MainThread) [homeassistant.bootstrap] Waiting on integrations to complete setup: {('wyoming', '01JWQ5X3ACXZT0RBZMC38WZ5RP'): 267421.447138109, ('wyoming', '01JWQ6F1KXK1SBB0NVY8S53WCP'): 267421.447847276}
+2025-06-16 13:01:27.688 WARNING (MainThread) [homeassistant.bootstrap] Waiting on integrations to complete setup: {('wyoming', '01JWQ5X3ACXZT0RBZMC38WZ5RP'): 267421.447138109, ('wyoming', '01JWQ6F1KXK1SBB0NVY8S53WCP'): 267421.447847276}
+2025-06-16 13:02:27.764 WARNING (MainThread) [homeassistant.bootstrap] Waiting on integrations to complete setup: {('wyoming', '01JWQ5X3ACXZT0RBZMC38WZ5RP'): 267421.447138109, ('wyoming', '01JWQ6F1KXK1SBB0NVY8S53WCP'): 267421.447847276}
+2025-06-16 13:03:27.834 WARNING (MainThread) [homeassistant.bootstrap] Waiting on integrations to complete setup: {('wyoming', '01JWQ5X3ACXZT0RBZMC38WZ5RP'): 267421.447138109, ('wyoming', '01JWQ6F1KXK1SBB0NVY8S53WCP'): 267421.447847276}
+2025-06-16 13:03:29.077 ERROR (MainThread) [homeassistant.config_entries] Error setting up entry faster-whisper for wyoming
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/config_entries.py", line 749, in __async_setup_with_context
+    result = await component.async_setup_entry(hass, self)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/wyoming/__init__.py", line 50, in async_setup_entry
+    service = await WyomingService.create(entry.data["host"], entry.data["port"])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/wyoming/data.py", line 94, in create
+    info = await load_wyoming_info(host, port)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/wyoming/data.py", line 113, in load_wyoming_info
+    async with AsyncTcpClient(host, port) as client, asyncio.timeout(timeout):
+               ~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/wyoming/client.py", line 35, in __aenter__
+    await self.connect()
+  File "/usr/local/lib/python3.13/site-packages/wyoming/client.py", line 73, in connect
+    self._reader, self._writer = await asyncio.open_connection(
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        lambda: protocol, host, port, **kwds)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/base_events.py", line 1135, in create_connection
+    sock = await self._connect_sock(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+        exceptions, addrinfo, laddr_infos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/base_events.py", line 1038, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 641, in sock_connect
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError: Global task timeout
+2025-06-16 13:03:29.087 ERROR (MainThread) [homeassistant.config_entries] Error setting up entry piper for wyoming
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/config_entries.py", line 749, in __async_setup_with_context
+    result = await component.async_setup_entry(hass, self)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/wyoming/__init__.py", line 50, in async_setup_entry
+    service = await WyomingService.create(entry.data["host"], entry.data["port"])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/wyoming/data.py", line 94, in create
+    info = await load_wyoming_info(host, port)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/wyoming/data.py", line 113, in load_wyoming_info
+    async with AsyncTcpClient(host, port) as client, asyncio.timeout(timeout):
+               ~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/wyoming/client.py", line 35, in __aenter__
+    await self.connect()
+  File "/usr/local/lib/python3.13/site-packages/wyoming/client.py", line 73, in connect
+    self._reader, self._writer = await asyncio.open_connection(
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        lambda: protocol, host, port, **kwds)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/base_events.py", line 1135, in create_connection
+    sock = await self._connect_sock(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+        exceptions, addrinfo, laddr_infos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/base_events.py", line 1038, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 641, in sock_connect
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError: Global task timeout
+2025-06-16 13:03:29.091 WARNING (MainThread) [homeassistant.bootstrap] Setup timed out for stage 2 waiting on set() - moving forward
+2025-06-16 13:06:09.496 ERROR (MainThread) [zigpy.zcl] [0xFC28:1:0x0702] Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/zigpy/zcl/__init__.py", line 425, in reply
+    return await self._endpoint.reply(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/zigpy/endpoint.py", line 304, in reply
+    return await self.device.reply(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/zigpy/device.py", line 558, in reply
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/zigpy/device.py", line 371, in request
+    async with self._limit_concurrency(priority=priority):
+               ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/contextlib.py", line 221, in __aexit__
+    await anext(self.gen)
+  File "/usr/local/lib/python3.13/site-packages/zigpy/device.py", line 120, in _limit_concurrency
+    async with self._concurrent_requests_semaphore(priority=priority):
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/zigpy/datastructures.py", line 32, in __aexit__
+    await self.context_manager.__aexit__(exc_type, exc, traceback)
+  File "/usr/local/lib/python3.13/site-packages/zigpy/datastructures.py", line 184, in __aexit__
+    self.release()
+    ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.13/site-packages/zigpy/datastructures.py", line 160, in release
+    raise ValueError("Semaphore released too many times")
+ValueError: Semaphore released too many times
+
+2025-06-16 13:17:33.893 ERROR (MainThread) [zigpy.zcl] [0xD5B1:1:0x0500] Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/zigpy/device.py", line 381, in request
+    return await req.result
+           ^^^^^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/zigpy/endpoint.py", line 270, in request
+    return await self.device.request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/zigpy/device.py", line 380, in request
+    async with asyncio_timeout(timeout):
+               ~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/timeouts.py", line 116, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/zha/zigbee/cluster_handlers/__init__.py", line 85, in wrapper
+    with wrap_zigpy_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.13/contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/zha/zigbee/cluster_handlers/__init__.py", line 70, in wrap_zigpy_exceptions
+    raise ZHAException("Failed to send request: device did not respond") from exc
+zha.exceptions.ZHAException: Failed to send request: device did not respond
+

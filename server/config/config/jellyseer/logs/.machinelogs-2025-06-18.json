@@ -1,0 +1,143 @@
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-17T19:00:00.019Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2025-06-17T19:00:00.042Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"75e4d074-a7cb-40e9-a46b-5b08c15dd9e3","timestamp":"2025-06-17T19:00:00.042Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2025-06-17T19:00:00.048Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Godfather Part II","timestamp":"2025-06-17T19:00:00.220Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The VelociPastor","timestamp":"2025-06-17T19:00:00.221Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found John Wick: Chapter 4","timestamp":"2025-06-17T19:00:00.221Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Bohemian Rhapsody","timestamp":"2025-06-17T19:00:00.234Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Birdemic: Shock and Terror","timestamp":"2025-06-17T19:00:00.236Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Cars","timestamp":"2025-06-17T19:00:00.236Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Fight Club","timestamp":"2025-06-17T19:00:00.237Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Theodore Rex","timestamp":"2025-06-17T19:00:00.243Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Happy Gilmore","timestamp":"2025-06-17T19:00:00.244Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Up","timestamp":"2025-06-17T19:00:00.245Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Troll 2","timestamp":"2025-06-17T19:00:00.247Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Godfather","timestamp":"2025-06-17T19:00:00.247Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2025-06-17T19:00:04.250Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Big Bang Theory","timestamp":"2025-06-17T19:00:04.500Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: South Park","timestamp":"2025-06-17T19:00:04.850Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2025-06-17T19:00:08.854Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-17T19:01:00.018Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-17T19:02:00.019Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-17T19:03:00.017Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-17T19:04:00.018Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-17T19:05:00.018Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2025-06-17T19:05:00.020Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"02722ba7-aa83-4dca-bd33-1867436235a2","timestamp":"2025-06-17T19:05:00.020Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2025-06-17T19:05:00.027Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found John Wick: Chapter 4","timestamp":"2025-06-17T19:05:00.074Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Happy Gilmore","timestamp":"2025-06-17T19:05:00.091Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The VelociPastor","timestamp":"2025-06-17T19:05:00.140Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Birdemic: Shock and Terror","timestamp":"2025-06-17T19:05:00.142Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Troll 2","timestamp":"2025-06-17T19:05:00.143Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Fight Club","timestamp":"2025-06-17T19:05:00.143Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Up","timestamp":"2025-06-17T19:05:00.144Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Cars","timestamp":"2025-06-17T19:05:00.144Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Theodore Rex","timestamp":"2025-06-17T19:05:00.144Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Godfather Part II","timestamp":"2025-06-17T19:05:00.145Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Bohemian Rhapsody","timestamp":"2025-06-17T19:05:00.145Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Godfather","timestamp":"2025-06-17T19:05:00.146Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2025-06-17T19:05:04.150Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Big Bang Theory","timestamp":"2025-06-17T19:05:04.344Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: South Park","timestamp":"2025-06-17T19:05:04.746Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2025-06-17T19:05:08.750Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-17T19:06:00.018Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-17T19:07:00.018Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-17T19:08:00.017Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-17T19:09:00.012Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-17T19:10:00.018Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2025-06-17T19:10:00.021Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"963bc877-5d75-49ea-8cc4-d88622687b70","timestamp":"2025-06-17T19:10:00.021Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2025-06-17T19:10:00.026Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Happy Gilmore","timestamp":"2025-06-17T19:10:00.155Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Birdemic: Shock and Terror","timestamp":"2025-06-17T19:10:00.201Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Cars","timestamp":"2025-06-17T19:10:00.202Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The VelociPastor","timestamp":"2025-06-17T19:10:00.204Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Godfather Part II","timestamp":"2025-06-17T19:10:00.205Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found John Wick: Chapter 4","timestamp":"2025-06-17T19:10:00.206Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Troll 2","timestamp":"2025-06-17T19:10:00.206Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Bohemian Rhapsody","timestamp":"2025-06-17T19:10:00.213Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Up","timestamp":"2025-06-17T19:10:00.230Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Theodore Rex","timestamp":"2025-06-17T19:10:00.230Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Fight Club","timestamp":"2025-06-17T19:10:00.232Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Godfather","timestamp":"2025-06-17T19:10:00.238Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2025-06-17T19:10:04.241Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Big Bang Theory","timestamp":"2025-06-17T19:10:04.472Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: South Park","timestamp":"2025-06-17T19:10:04.822Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2025-06-17T19:10:08.826Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-17T19:11:00.002Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-17T19:12:00.019Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-17T19:13:00.018Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-17T19:14:00.019Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-17T19:15:00.003Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2025-06-17T19:15:00.006Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"353997be-0890-4b58-a3a7-d8ea0e003a5e","timestamp":"2025-06-17T19:15:00.006Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2025-06-17T19:15:00.011Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found John Wick: Chapter 4","timestamp":"2025-06-17T19:15:00.069Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The VelociPastor","timestamp":"2025-06-17T19:15:00.129Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Birdemic: Shock and Terror","timestamp":"2025-06-17T19:15:00.132Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Troll 2","timestamp":"2025-06-17T19:15:00.132Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Theodore Rex","timestamp":"2025-06-17T19:15:00.133Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Happy Gilmore","timestamp":"2025-06-17T19:15:00.133Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Fight Club","timestamp":"2025-06-17T19:15:00.134Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Cars","timestamp":"2025-06-17T19:15:00.135Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Godfather Part II","timestamp":"2025-06-17T19:15:00.135Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Godfather","timestamp":"2025-06-17T19:15:00.135Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Up","timestamp":"2025-06-17T19:15:00.136Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Bohemian Rhapsody","timestamp":"2025-06-17T19:15:00.136Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2025-06-17T19:15:04.141Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Big Bang Theory","timestamp":"2025-06-17T19:15:04.370Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: South Park","timestamp":"2025-06-17T19:15:04.771Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2025-06-17T19:15:08.776Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-17T19:16:00.018Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-17T19:17:00.018Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-17T19:18:00.017Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-17T19:19:00.018Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-17T19:20:00.016Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2025-06-17T19:20:00.019Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"c5b889de-6fd8-457a-b37c-5ad9a0b22fca","timestamp":"2025-06-17T19:20:00.019Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2025-06-17T19:20:00.023Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found John Wick: Chapter 4","timestamp":"2025-06-17T19:20:00.174Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Theodore Rex","timestamp":"2025-06-17T19:20:00.179Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Bohemian Rhapsody","timestamp":"2025-06-17T19:20:00.189Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Birdemic: Shock and Terror","timestamp":"2025-06-17T19:20:00.219Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Up","timestamp":"2025-06-17T19:20:00.220Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Godfather","timestamp":"2025-06-17T19:20:00.230Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Godfather Part II","timestamp":"2025-06-17T19:20:00.230Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Cars","timestamp":"2025-06-17T19:20:00.231Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Happy Gilmore","timestamp":"2025-06-17T19:20:00.231Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The VelociPastor","timestamp":"2025-06-17T19:20:00.231Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Fight Club","timestamp":"2025-06-17T19:20:00.233Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Troll 2","timestamp":"2025-06-17T19:20:00.233Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2025-06-17T19:20:04.236Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Big Bang Theory","timestamp":"2025-06-17T19:20:04.474Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: South Park","timestamp":"2025-06-17T19:20:04.862Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2025-06-17T19:20:08.866Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-17T19:21:00.018Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-17T19:22:00.017Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-17T19:23:00.018Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-17T19:24:00.017Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-17T19:25:00.009Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2025-06-17T19:25:00.012Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"11048eae-f670-4b19-a37f-37602a8c1356","timestamp":"2025-06-17T19:25:00.012Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2025-06-17T19:25:00.018Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found John Wick: Chapter 4","timestamp":"2025-06-17T19:25:00.057Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The VelociPastor","timestamp":"2025-06-17T19:25:00.093Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Up","timestamp":"2025-06-17T19:25:00.130Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Troll 2","timestamp":"2025-06-17T19:25:00.130Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Fight Club","timestamp":"2025-06-17T19:25:00.132Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Theodore Rex","timestamp":"2025-06-17T19:25:00.133Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Happy Gilmore","timestamp":"2025-06-17T19:25:00.137Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Birdemic: Shock and Terror","timestamp":"2025-06-17T19:25:00.137Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Cars","timestamp":"2025-06-17T19:25:00.138Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Godfather Part II","timestamp":"2025-06-17T19:25:00.139Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Godfather","timestamp":"2025-06-17T19:25:00.139Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Bohemian Rhapsody","timestamp":"2025-06-17T19:25:00.140Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2025-06-17T19:25:04.145Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Big Bang Theory","timestamp":"2025-06-17T19:25:04.376Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: South Park","timestamp":"2025-06-17T19:25:04.774Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2025-06-17T19:25:08.778Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-17T19:26:00.017Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-17T19:27:00.016Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-17T19:28:00.002Z"}

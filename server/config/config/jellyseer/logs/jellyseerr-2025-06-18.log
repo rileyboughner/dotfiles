@@ -1,0 +1,143 @@
+2025-06-17T19:00:00.019Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-17T19:00:00.042Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-06-17T19:00:00.042Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"75e4d074-a7cb-40e9-a46b-5b08c15dd9e3"}
+2025-06-17T19:00:00.048Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-06-17T19:00:00.220Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Godfather Part II 
+2025-06-17T19:00:00.221Z [debug][Jellyfin Sync]: Title already exists and no new media types found The VelociPastor 
+2025-06-17T19:00:00.221Z [debug][Jellyfin Sync]: Title already exists and no new media types found John Wick: Chapter 4 
+2025-06-17T19:00:00.234Z [debug][Jellyfin Sync]: Title already exists and no new media types found Bohemian Rhapsody 
+2025-06-17T19:00:00.236Z [debug][Jellyfin Sync]: Title already exists and no new media types found Birdemic: Shock and Terror 
+2025-06-17T19:00:00.236Z [debug][Jellyfin Sync]: Title already exists and no new media types found Cars 
+2025-06-17T19:00:00.237Z [debug][Jellyfin Sync]: Title already exists and no new media types found Fight Club 
+2025-06-17T19:00:00.243Z [debug][Jellyfin Sync]: Title already exists and no new media types found Theodore Rex 
+2025-06-17T19:00:00.244Z [debug][Jellyfin Sync]: Title already exists and no new media types found Happy Gilmore 
+2025-06-17T19:00:00.245Z [debug][Jellyfin Sync]: Title already exists and no new media types found Up 
+2025-06-17T19:00:00.247Z [debug][Jellyfin Sync]: Title already exists and no new media types found Troll 2 
+2025-06-17T19:00:00.247Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Godfather 
+2025-06-17T19:00:04.250Z [info][Jellyfin Sync]: Beginning to process recently added for library: Shows 
+2025-06-17T19:00:04.500Z [debug][Jellyfin Sync]: Updating existing title: The Big Bang Theory 
+2025-06-17T19:00:04.850Z [debug][Jellyfin Sync]: Updating existing title: South Park 
+2025-06-17T19:00:08.854Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2025-06-17T19:01:00.018Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-17T19:02:00.019Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-17T19:03:00.017Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-17T19:04:00.018Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-17T19:05:00.018Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-17T19:05:00.020Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-06-17T19:05:00.020Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"02722ba7-aa83-4dca-bd33-1867436235a2"}
+2025-06-17T19:05:00.027Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-06-17T19:05:00.074Z [debug][Jellyfin Sync]: Title already exists and no new media types found John Wick: Chapter 4 
+2025-06-17T19:05:00.091Z [debug][Jellyfin Sync]: Title already exists and no new media types found Happy Gilmore 
+2025-06-17T19:05:00.140Z [debug][Jellyfin Sync]: Title already exists and no new media types found The VelociPastor 
+2025-06-17T19:05:00.142Z [debug][Jellyfin Sync]: Title already exists and no new media types found Birdemic: Shock and Terror 
+2025-06-17T19:05:00.143Z [debug][Jellyfin Sync]: Title already exists and no new media types found Troll 2 
+2025-06-17T19:05:00.143Z [debug][Jellyfin Sync]: Title already exists and no new media types found Fight Club 
+2025-06-17T19:05:00.144Z [debug][Jellyfin Sync]: Title already exists and no new media types found Up 
+2025-06-17T19:05:00.144Z [debug][Jellyfin Sync]: Title already exists and no new media types found Cars 
+2025-06-17T19:05:00.144Z [debug][Jellyfin Sync]: Title already exists and no new media types found Theodore Rex 
+2025-06-17T19:05:00.145Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Godfather Part II 
+2025-06-17T19:05:00.145Z [debug][Jellyfin Sync]: Title already exists and no new media types found Bohemian Rhapsody 
+2025-06-17T19:05:00.146Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Godfather 
+2025-06-17T19:05:04.150Z [info][Jellyfin Sync]: Beginning to process recently added for library: Shows 
+2025-06-17T19:05:04.344Z [debug][Jellyfin Sync]: Updating existing title: The Big Bang Theory 
+2025-06-17T19:05:04.746Z [debug][Jellyfin Sync]: Updating existing title: South Park 
+2025-06-17T19:05:08.750Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2025-06-17T19:06:00.018Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-17T19:07:00.018Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-17T19:08:00.017Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-17T19:09:00.012Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-17T19:10:00.018Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-17T19:10:00.021Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-06-17T19:10:00.021Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"963bc877-5d75-49ea-8cc4-d88622687b70"}
+2025-06-17T19:10:00.026Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-06-17T19:10:00.155Z [debug][Jellyfin Sync]: Title already exists and no new media types found Happy Gilmore 
+2025-06-17T19:10:00.201Z [debug][Jellyfin Sync]: Title already exists and no new media types found Birdemic: Shock and Terror 
+2025-06-17T19:10:00.202Z [debug][Jellyfin Sync]: Title already exists and no new media types found Cars 
+2025-06-17T19:10:00.204Z [debug][Jellyfin Sync]: Title already exists and no new media types found The VelociPastor 
+2025-06-17T19:10:00.205Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Godfather Part II 
+2025-06-17T19:10:00.206Z [debug][Jellyfin Sync]: Title already exists and no new media types found John Wick: Chapter 4 
+2025-06-17T19:10:00.206Z [debug][Jellyfin Sync]: Title already exists and no new media types found Troll 2 
+2025-06-17T19:10:00.213Z [debug][Jellyfin Sync]: Title already exists and no new media types found Bohemian Rhapsody 
+2025-06-17T19:10:00.230Z [debug][Jellyfin Sync]: Title already exists and no new media types found Up 
+2025-06-17T19:10:00.230Z [debug][Jellyfin Sync]: Title already exists and no new media types found Theodore Rex 
+2025-06-17T19:10:00.232Z [debug][Jellyfin Sync]: Title already exists and no new media types found Fight Club 
+2025-06-17T19:10:00.238Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Godfather 
+2025-06-17T19:10:04.241Z [info][Jellyfin Sync]: Beginning to process recently added for library: Shows 
+2025-06-17T19:10:04.472Z [debug][Jellyfin Sync]: Updating existing title: The Big Bang Theory 
+2025-06-17T19:10:04.822Z [debug][Jellyfin Sync]: Updating existing title: South Park 
+2025-06-17T19:10:08.826Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2025-06-17T19:11:00.002Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-17T19:12:00.019Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-17T19:13:00.018Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-17T19:14:00.019Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-17T19:15:00.003Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-17T19:15:00.006Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-06-17T19:15:00.006Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"353997be-0890-4b58-a3a7-d8ea0e003a5e"}
+2025-06-17T19:15:00.011Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-06-17T19:15:00.069Z [debug][Jellyfin Sync]: Title already exists and no new media types found John Wick: Chapter 4 
+2025-06-17T19:15:00.129Z [debug][Jellyfin Sync]: Title already exists and no new media types found The VelociPastor 
+2025-06-17T19:15:00.132Z [debug][Jellyfin Sync]: Title already exists and no new media types found Birdemic: Shock and Terror 
+2025-06-17T19:15:00.132Z [debug][Jellyfin Sync]: Title already exists and no new media types found Troll 2 
+2025-06-17T19:15:00.133Z [debug][Jellyfin Sync]: Title already exists and no new media types found Theodore Rex 
+2025-06-17T19:15:00.133Z [debug][Jellyfin Sync]: Title already exists and no new media types found Happy Gilmore 
+2025-06-17T19:15:00.134Z [debug][Jellyfin Sync]: Title already exists and no new media types found Fight Club 
+2025-06-17T19:15:00.135Z [debug][Jellyfin Sync]: Title already exists and no new media types found Cars 
+2025-06-17T19:15:00.135Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Godfather Part II 
+2025-06-17T19:15:00.135Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Godfather 
+2025-06-17T19:15:00.136Z [debug][Jellyfin Sync]: Title already exists and no new media types found Up 
+2025-06-17T19:15:00.136Z [debug][Jellyfin Sync]: Title already exists and no new media types found Bohemian Rhapsody 
+2025-06-17T19:15:04.141Z [info][Jellyfin Sync]: Beginning to process recently added for library: Shows 
+2025-06-17T19:15:04.370Z [debug][Jellyfin Sync]: Updating existing title: The Big Bang Theory 
+2025-06-17T19:15:04.771Z [debug][Jellyfin Sync]: Updating existing title: South Park 
+2025-06-17T19:15:08.776Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2025-06-17T19:16:00.018Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-17T19:17:00.018Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-17T19:18:00.017Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-17T19:19:00.018Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-17T19:20:00.016Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-17T19:20:00.019Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-06-17T19:20:00.019Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"c5b889de-6fd8-457a-b37c-5ad9a0b22fca"}
+2025-06-17T19:20:00.023Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-06-17T19:20:00.174Z [debug][Jellyfin Sync]: Title already exists and no new media types found John Wick: Chapter 4 
+2025-06-17T19:20:00.179Z [debug][Jellyfin Sync]: Title already exists and no new media types found Theodore Rex 
+2025-06-17T19:20:00.189Z [debug][Jellyfin Sync]: Title already exists and no new media types found Bohemian Rhapsody 
+2025-06-17T19:20:00.219Z [debug][Jellyfin Sync]: Title already exists and no new media types found Birdemic: Shock and Terror 
+2025-06-17T19:20:00.220Z [debug][Jellyfin Sync]: Title already exists and no new media types found Up 
+2025-06-17T19:20:00.230Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Godfather 
+2025-06-17T19:20:00.230Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Godfather Part II 
+2025-06-17T19:20:00.231Z [debug][Jellyfin Sync]: Title already exists and no new media types found Cars 
+2025-06-17T19:20:00.231Z [debug][Jellyfin Sync]: Title already exists and no new media types found Happy Gilmore 
+2025-06-17T19:20:00.231Z [debug][Jellyfin Sync]: Title already exists and no new media types found The VelociPastor 
+2025-06-17T19:20:00.233Z [debug][Jellyfin Sync]: Title already exists and no new media types found Fight Club 
+2025-06-17T19:20:00.233Z [debug][Jellyfin Sync]: Title already exists and no new media types found Troll 2 
+2025-06-17T19:20:04.236Z [info][Jellyfin Sync]: Beginning to process recently added for library: Shows 
+2025-06-17T19:20:04.474Z [debug][Jellyfin Sync]: Updating existing title: The Big Bang Theory 
+2025-06-17T19:20:04.862Z [debug][Jellyfin Sync]: Updating existing title: South Park 
+2025-06-17T19:20:08.866Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2025-06-17T19:21:00.018Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-17T19:22:00.017Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-17T19:23:00.018Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-17T19:24:00.017Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-17T19:25:00.009Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-17T19:25:00.012Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-06-17T19:25:00.012Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"11048eae-f670-4b19-a37f-37602a8c1356"}
+2025-06-17T19:25:00.018Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-06-17T19:25:00.057Z [debug][Jellyfin Sync]: Title already exists and no new media types found John Wick: Chapter 4 
+2025-06-17T19:25:00.093Z [debug][Jellyfin Sync]: Title already exists and no new media types found The VelociPastor 
+2025-06-17T19:25:00.130Z [debug][Jellyfin Sync]: Title already exists and no new media types found Up 
+2025-06-17T19:25:00.130Z [debug][Jellyfin Sync]: Title already exists and no new media types found Troll 2 
+2025-06-17T19:25:00.132Z [debug][Jellyfin Sync]: Title already exists and no new media types found Fight Club 
+2025-06-17T19:25:00.133Z [debug][Jellyfin Sync]: Title already exists and no new media types found Theodore Rex 
+2025-06-17T19:25:00.137Z [debug][Jellyfin Sync]: Title already exists and no new media types found Happy Gilmore 
+2025-06-17T19:25:00.137Z [debug][Jellyfin Sync]: Title already exists and no new media types found Birdemic: Shock and Terror 
+2025-06-17T19:25:00.138Z [debug][Jellyfin Sync]: Title already exists and no new media types found Cars 
+2025-06-17T19:25:00.139Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Godfather Part II 
+2025-06-17T19:25:00.139Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Godfather 
+2025-06-17T19:25:00.140Z [debug][Jellyfin Sync]: Title already exists and no new media types found Bohemian Rhapsody 
+2025-06-17T19:25:04.145Z [info][Jellyfin Sync]: Beginning to process recently added for library: Shows 
+2025-06-17T19:25:04.376Z [debug][Jellyfin Sync]: Updating existing title: The Big Bang Theory 
+2025-06-17T19:25:04.774Z [debug][Jellyfin Sync]: Updating existing title: South Park 
+2025-06-17T19:25:08.778Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2025-06-17T19:26:00.017Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-17T19:27:00.016Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-17T19:28:00.002Z [debug][Jobs]: Starting scheduled job: Download Sync 

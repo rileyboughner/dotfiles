@@ -1,0 +1,770 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "trace.saved_traces",
+  "data": {
+    "automation.1748821535960": [
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "3e46506a4383b85e1b1ebe1c5bb19e69",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2025-06-17T00:00:00.446541+00:00",
+            "finish": "2025-06-17T00:00:00.864343+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1748821535960",
+          "trigger": "time",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2025-06-17T00:00:00.446817+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.bedroom_light_time",
+                    "state": "on",
+                    "attributes": {
+                      "id": "1748821535960",
+                      "last_triggered": "2025-06-09T00:00:00.279785+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Bedroom Lights Night"
+                    },
+                    "last_changed": "2025-06-16T16:58:31.266989+00:00",
+                    "last_reported": "2025-06-16T16:58:31.266989+00:00",
+                    "last_updated": "2025-06-16T16:58:31.266989+00:00",
+                    "context": {
+                      "id": "01JXWTV7Z23MGC7SR1P4A31CDS",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "time",
+                    "now": "2025-06-16T20:00:00.445784-04:00",
+                    "description": "time",
+                    "entity_id": null
+                  }
+                }
+              }
+            ],
+            "condition/0": [
+              {
+                "path": "condition/0",
+                "timestamp": "2025-06-17T00:00:00.446971+00:00",
+                "result": {
+                  "result": true
+                }
+              }
+            ],
+            "condition/0/entity_id/0": [
+              {
+                "path": "condition/0/entity_id/0",
+                "timestamp": "2025-06-17T00:00:00.447058+00:00",
+                "result": {
+                  "result": true,
+                  "state": "on",
+                  "wanted_state": "on"
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2025-06-17T00:00:00.448193+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01JXXJZ0DYM7RM3A7ABC9YER6W",
+                    "parent_id": null,
+                    "user_id": null
+                  }
+                },
+                "result": {
+                  "params": {
+                    "domain": "light",
+                    "service": "turn_on",
+                    "service_data": {
+                      "rgb_color": [
+                        224,
+                        27,
+                        36
+                      ],
+                      "brightness_pct": 65,
+                      "area_id": [
+                        "bedroom"
+                      ]
+                    },
+                    "target": {
+                      "area_id": [
+                        "bedroom"
+                      ]
+                    }
+                  },
+                  "running_script": false
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1748821535960",
+            "alias": "Bedroom Light Time",
+            "description": "",
+            "triggers": [
+              {
+                "trigger": "time",
+                "at": "20:00:00"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "state",
+                "entity_id": "light.sengled_e21_n1ea",
+                "state": "on"
+              }
+            ],
+            "actions": [
+              {
+                "action": "light.turn_on",
+                "metadata": {},
+                "data": {
+                  "rgb_color": [
+                    224,
+                    27,
+                    36
+                  ],
+                  "brightness_pct": 65
+                },
+                "target": {
+                  "area_id": "bedroom"
+                }
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01JXXJZ0DYM7RM3A7ABC9YER6W",
+            "parent_id": null,
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0",
+          "run_id": "3e46506a4383b85e1b1ebe1c5bb19e69",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2025-06-17T00:00:00.446541+00:00",
+            "finish": "2025-06-17T00:00:00.864343+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1748821535960",
+          "trigger": "time"
+        }
+      }
+    ],
+    "automation.1748821045496": [
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "7e8c5d9f6210d0dd33bd54822164f3b4",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2025-06-17T09:00:00.172682+00:00",
+            "finish": "2025-06-17T09:00:00.636451+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1748821045496",
+          "trigger": "time",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2025-06-17T09:00:00.172856+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.wake_up",
+                    "state": "on",
+                    "attributes": {
+                      "id": "1748821045496",
+                      "last_triggered": "2025-06-16T09:00:00.329043+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Wake Up"
+                    },
+                    "last_changed": "2025-06-16T16:58:31.266651+00:00",
+                    "last_reported": "2025-06-16T16:58:31.266651+00:00",
+                    "last_updated": "2025-06-16T16:58:31.266651+00:00",
+                    "context": {
+                      "id": "01JXWTV7Z2RPGK0D0VEFMZR9PX",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "time",
+                    "now": "2025-06-17T05:00:00.171829-04:00",
+                    "description": "time",
+                    "entity_id": null
+                  }
+                }
+              }
+            ],
+            "condition/0": [
+              {
+                "path": "condition/0",
+                "timestamp": "2025-06-17T09:00:00.172954+00:00",
+                "result": {
+                  "result": true
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2025-06-17T09:00:00.173610+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01JXYHVRSCY1M9402FJ0XXPCWR",
+                    "parent_id": null,
+                    "user_id": null
+                  }
+                },
+                "result": {
+                  "params": {
+                    "domain": "light",
+                    "service": "turn_on",
+                    "service_data": {
+                      "color_temp_kelvin": 3204,
+                      "brightness_pct": 75,
+                      "area_id": [
+                        "bedroom"
+                      ]
+                    },
+                    "target": {
+                      "area_id": [
+                        "bedroom"
+                      ]
+                    }
+                  },
+                  "running_script": false
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1748821045496",
+            "alias": "Wake Up",
+            "description": "",
+            "triggers": [
+              {
+                "trigger": "time",
+                "at": "05:00:00"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "zone",
+                "entity_id": "person.riley_boughner",
+                "zone": "zone.home"
+              }
+            ],
+            "actions": [
+              {
+                "action": "light.turn_on",
+                "metadata": {},
+                "data": {
+                  "color_temp_kelvin": 3204,
+                  "brightness_pct": 75
+                },
+                "target": {
+                  "area_id": "bedroom"
+                }
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01JXYHVRSCY1M9402FJ0XXPCWR",
+            "parent_id": null,
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0",
+          "run_id": "7e8c5d9f6210d0dd33bd54822164f3b4",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2025-06-17T09:00:00.172682+00:00",
+            "finish": "2025-06-17T09:00:00.636451+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1748821045496",
+          "trigger": "time"
+        }
+      }
+    ],
+    "automation.1748820210224": [
+      {
+        "extended_dict": {
+          "last_step": "action/1",
+          "run_id": "dcc54d590362641c70ca1029e7fda511",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2025-06-17T09:57:45.270529+00:00",
+            "finish": "2025-06-17T09:57:45.582377+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1748820210224",
+          "trigger": "person.riley_boughner leaving Home",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2025-06-17T09:57:45.270655+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.leave_home",
+                    "state": "on",
+                    "attributes": {
+                      "id": "1748820210224",
+                      "last_triggered": "2025-06-16T12:09:28.108337+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Leave Home"
+                    },
+                    "last_changed": "2025-06-16T16:58:31.266233+00:00",
+                    "last_reported": "2025-06-16T16:58:31.266233+00:00",
+                    "last_updated": "2025-06-16T16:58:31.266233+00:00",
+                    "context": {
+                      "id": "01JXWTV7Z213PQJAAC5ZWMH3PC",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "zone",
+                    "entity_id": "person.riley_boughner",
+                    "from_state": {
+                      "entity_id": "person.riley_boughner",
+                      "state": "home",
+                      "attributes": {
+                        "editable": true,
+                        "id": "riley_boughner",
+                        "device_trackers": [
+                          "device_tracker.rileys_phone",
+                          "device_tracker.rileys_phone_2"
+                        ],
+                        "latitude": 39.1325557,
+                        "longitude": -84.5072851,
+                        "gps_accuracy": 28,
+                        "source": "device_tracker.rileys_phone",
+                        "user_id": "7e69f3d4213b462ebdc16eb3180c16fd",
+                        "friendly_name": "Riley Boughner"
+                      },
+                      "last_changed": "2025-06-16T16:58:29.133044+00:00",
+                      "last_reported": "2025-06-17T09:48:50.312871+00:00",
+                      "last_updated": "2025-06-17T09:48:50.312871+00:00",
+                      "context": {
+                        "id": "01JXYMN6886QCDC9DHAH2Q82GP",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "to_state": {
+                      "entity_id": "person.riley_boughner",
+                      "state": "not_home",
+                      "attributes": {
+                        "editable": true,
+                        "id": "riley_boughner",
+                        "device_trackers": [
+                          "device_tracker.rileys_phone",
+                          "device_tracker.rileys_phone_2"
+                        ],
+                        "latitude": 39.1329804,
+                        "longitude": -84.5110059,
+                        "gps_accuracy": 4,
+                        "source": "device_tracker.rileys_phone",
+                        "user_id": "7e69f3d4213b462ebdc16eb3180c16fd",
+                        "friendly_name": "Riley Boughner"
+                      },
+                      "last_changed": "2025-06-17T09:57:45.269898+00:00",
+                      "last_reported": "2025-06-17T09:57:45.322348+00:00",
+                      "last_updated": "2025-06-17T09:57:45.269898+00:00",
+                      "context": {
+                        "id": "01JXYN5GNNYQ0WVSXMHF5BTJEC",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "zone": {
+                      "entity_id": "zone.home",
+                      "state": "0",
+                      "attributes": {
+                        "latitude": 39.13256735772089,
+                        "longitude": -84.50722485780717,
+                        "radius": 100,
+                        "passive": false,
+                        "persons": [],
+                        "editable": true,
+                        "icon": "mdi:home",
+                        "friendly_name": "Home"
+                      },
+                      "last_changed": "2025-06-17T09:57:45.270157+00:00",
+                      "last_reported": "2025-06-17T09:57:45.270157+00:00",
+                      "last_updated": "2025-06-17T09:57:45.270157+00:00",
+                      "context": {
+                        "id": "01JXYN5GNPV3RAV797XA9B57RZ",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "event": "leave",
+                    "description": "person.riley_boughner leaving Home"
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2025-06-17T09:57:45.271150+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01JXYN5GNPC62VXQKHQGRZ1GB0",
+                    "parent_id": "01JXYN5GNNYQ0WVSXMHF5BTJEC",
+                    "user_id": null
+                  }
+                },
+                "result": {
+                  "params": {
+                    "domain": "light",
+                    "service": "turn_off",
+                    "service_data": {},
+                    "target": {
+                      "area_id": [
+                        "bedroom"
+                      ]
+                    }
+                  },
+                  "running_script": false
+                }
+              }
+            ],
+            "action/1": [
+              {
+                "path": "action/1",
+                "timestamp": "2025-06-17T09:57:45.581292+00:00",
+                "result": {
+                  "params": {
+                    "domain": "climate",
+                    "service": "turn_off",
+                    "service_data": {},
+                    "target": {
+                      "area_id": [
+                        "bedroom"
+                      ]
+                    }
+                  },
+                  "running_script": false
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1748820210224",
+            "alias": "Leave Home",
+            "description": "",
+            "triggers": [
+              {
+                "trigger": "zone",
+                "entity_id": "person.riley_boughner",
+                "zone": "zone.home",
+                "event": "leave"
+              }
+            ],
+            "conditions": [],
+            "actions": [
+              {
+                "action": "light.turn_off",
+                "metadata": {},
+                "data": {},
+                "target": {
+                  "area_id": "bedroom"
+                }
+              },
+              {
+                "action": "climate.turn_off",
+                "metadata": {},
+                "data": {},
+                "target": {
+                  "area_id": "bedroom"
+                }
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01JXYN5GNPC62VXQKHQGRZ1GB0",
+            "parent_id": "01JXYN5GNNYQ0WVSXMHF5BTJEC",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/1",
+          "run_id": "dcc54d590362641c70ca1029e7fda511",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2025-06-17T09:57:45.270529+00:00",
+            "finish": "2025-06-17T09:57:45.582377+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1748820210224",
+          "trigger": "person.riley_boughner leaving Home"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "action/1",
+          "run_id": "ab3315040499b57d6b250ed6ac5137f9",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2025-06-17T11:44:16.898331+00:00",
+            "finish": "2025-06-17T11:44:17.113878+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1748820210224",
+          "trigger": "person.riley_boughner leaving Home",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2025-06-17T11:44:16.898473+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.leave_home",
+                    "state": "on",
+                    "attributes": {
+                      "id": "1748820210224",
+                      "last_triggered": "2025-06-17T09:57:45.270872+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Leave Home"
+                    },
+                    "last_changed": "2025-06-16T16:58:31.266233+00:00",
+                    "last_reported": "2025-06-17T09:57:45.582238+00:00",
+                    "last_updated": "2025-06-17T09:57:45.582238+00:00",
+                    "context": {
+                      "id": "01JXYN5GNPC62VXQKHQGRZ1GB0",
+                      "parent_id": "01JXYN5GNNYQ0WVSXMHF5BTJEC",
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "zone",
+                    "entity_id": "person.riley_boughner",
+                    "from_state": {
+                      "entity_id": "person.riley_boughner",
+                      "state": "home",
+                      "attributes": {
+                        "editable": true,
+                        "id": "riley_boughner",
+                        "device_trackers": [
+                          "device_tracker.rileys_phone",
+                          "device_tracker.rileys_phone_2"
+                        ],
+                        "latitude": 39.1325401,
+                        "longitude": -84.5069625,
+                        "gps_accuracy": 21,
+                        "source": "device_tracker.rileys_phone",
+                        "user_id": "7e69f3d4213b462ebdc16eb3180c16fd",
+                        "friendly_name": "Riley Boughner"
+                      },
+                      "last_changed": "2025-06-17T11:06:00.404345+00:00",
+                      "last_reported": "2025-06-17T11:42:14.838511+00:00",
+                      "last_updated": "2025-06-17T11:42:14.809047+00:00",
+                      "context": {
+                        "id": "01JXYV4V8SR7NS0KWZEB8JXQ9A",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "to_state": {
+                      "entity_id": "person.riley_boughner",
+                      "state": "not_home",
+                      "attributes": {
+                        "editable": true,
+                        "id": "riley_boughner",
+                        "device_trackers": [
+                          "device_tracker.rileys_phone",
+                          "device_tracker.rileys_phone_2"
+                        ],
+                        "latitude": 39.1352233,
+                        "longitude": -84.5055964,
+                        "gps_accuracy": 3,
+                        "source": "device_tracker.rileys_phone",
+                        "user_id": "7e69f3d4213b462ebdc16eb3180c16fd",
+                        "friendly_name": "Riley Boughner"
+                      },
+                      "last_changed": "2025-06-17T11:44:16.897678+00:00",
+                      "last_reported": "2025-06-17T11:44:16.915939+00:00",
+                      "last_updated": "2025-06-17T11:44:16.897678+00:00",
+                      "context": {
+                        "id": "01JXYV8JG10NFJEBB23RD4PWJE",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "zone": {
+                      "entity_id": "zone.home",
+                      "state": "0",
+                      "attributes": {
+                        "latitude": 39.13256735772089,
+                        "longitude": -84.50722485780717,
+                        "radius": 100,
+                        "passive": false,
+                        "persons": [],
+                        "editable": true,
+                        "icon": "mdi:home",
+                        "friendly_name": "Home"
+                      },
+                      "last_changed": "2025-06-17T11:44:16.897945+00:00",
+                      "last_reported": "2025-06-17T11:44:16.897945+00:00",
+                      "last_updated": "2025-06-17T11:44:16.897945+00:00",
+                      "context": {
+                        "id": "01JXYV8JG1ZVWNBQ1J5HRJTJTC",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "event": "leave",
+                    "description": "person.riley_boughner leaving Home"
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2025-06-17T11:44:16.898948+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01JXYV8JG22N7VC159CA6ERR1P",
+                    "parent_id": "01JXYV8JG10NFJEBB23RD4PWJE",
+                    "user_id": null
+                  }
+                },
+                "result": {
+                  "params": {
+                    "domain": "light",
+                    "service": "turn_off",
+                    "service_data": {},
+                    "target": {
+                      "area_id": [
+                        "bedroom"
+                      ]
+                    }
+                  },
+                  "running_script": false
+                }
+              }
+            ],
+            "action/1": [
+              {
+                "path": "action/1",
+                "timestamp": "2025-06-17T11:44:17.112823+00:00",
+                "result": {
+                  "params": {
+                    "domain": "climate",
+                    "service": "turn_off",
+                    "service_data": {},
+                    "target": {
+                      "area_id": [
+                        "bedroom"
+                      ]
+                    }
+                  },
+                  "running_script": false
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1748820210224",
+            "alias": "Leave Home",
+            "description": "",
+            "triggers": [
+              {
+                "trigger": "zone",
+                "entity_id": "person.riley_boughner",
+                "zone": "zone.home",
+                "event": "leave"
+              }
+            ],
+            "conditions": [],
+            "actions": [
+              {
+                "action": "light.turn_off",
+                "metadata": {},
+                "data": {},
+                "target": {
+                  "area_id": "bedroom"
+                }
+              },
+              {
+                "action": "climate.turn_off",
+                "metadata": {},
+                "data": {},
+                "target": {
+                  "area_id": "bedroom"
+                }
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01JXYV8JG22N7VC159CA6ERR1P",
+            "parent_id": "01JXYV8JG10NFJEBB23RD4PWJE",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/1",
+          "run_id": "ab3315040499b57d6b250ed6ac5137f9",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2025-06-17T11:44:16.898331+00:00",
+            "finish": "2025-06-17T11:44:17.113878+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1748820210224",
+          "trigger": "person.riley_boughner leaving Home"
+        }
+      }
+    ]
+  }
+}

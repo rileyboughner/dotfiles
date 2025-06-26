@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "zone",
+  "data": {
+    "items": [
+      {
+        "id": "home",
+        "latitude": 39.132553,
+        "longitude": -84.5071889,
+        "name": "Home",
+        "icon": "mdi:home",
+        "passive": false,
+        "radius": 30.0
+      }
+    ]
+  }
+}

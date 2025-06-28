@@ -1,1 +1,0 @@
-2025/06/16 23:15:56 [warn] 264#264: *363 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/1/00/0000000001 while reading upstream, client: 172.70.100.222, server: passwords.clownweb.net, request: "GET /api/sync HTTP/2.0", upstream: "http://172.21.0.5:80/api/sync", host: "passwords.clownweb.net"
